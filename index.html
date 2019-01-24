@@ -23,8 +23,8 @@
     </head>
     <!-- --> 
     <body>
-        <nav class="navbar sticky-top py-0">
-            <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <!-- <nav class="navbar navbar-inverse sticky-top py-0">
+            <div class="container">
                 <a class="py-2" href="#"> Pelco </a>
                 <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
                 <a class="py-2 d-none d-md-inline-block" href="#">Projects</a>
@@ -32,9 +32,35 @@
                 <a class="py-2 d-none d-md-inline-block" href="#">Experience</a>
                 <a class="py-2 d-none d-md-inline-block" href="#">Contact Me</a>
             </div>
-        </nav>
+        </nav> -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#home">Pedro Oliveira</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contributions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div id="home" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
         <div class="col-md-5 p-lg-5 mx-auto my-5">
           <h1 class="display-4 font-weight-normal">Punny headline</h1>
           <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
@@ -42,14 +68,41 @@
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-      </div>
-
-
-    <div class="jumbotron">
-    <div class="container text-center">
-        <h1>My Portfolio</h1>      
-        <p>Some text that represents "Me"...</p>
     </div>
+
+
+    <div class="container marketing">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect fill="#eee" width="100%" height="100%"/><text fill="#aaa" dy=".3em" x="50%" y="50%">500x500</text></svg>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+                <div class="col-md-5 order-md-1">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect fill="#eee" width="100%" height="100%"/><text fill="#aaa" dy=".3em" x="50%" y="50%">500x500</text></svg>
+                </div>
+            </div>
+
+        <hr class="featurette-divider">
+
+    </div>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>My Portfolio</h1>      
+            <p>Some text that represents "Me"...</p>
+        </div>
     </div>
 
 
