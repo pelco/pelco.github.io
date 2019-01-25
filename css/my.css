@@ -8,11 +8,14 @@ body {
     }
 }
 
+.myspace {
+    padding-top: 56px;
+}
 nav.navbar {
     opacity: 0.8;
     background-color: black;
 }
-/* change navbar-brand color on hover */
+
 .navbar a.navbar-brand:hover {
     color: rgb(60, 145, 194)!important;
   }
