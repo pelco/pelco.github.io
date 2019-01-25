@@ -1,0 +1,39 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+body {
+    padding-top: 56px;
+}
+.navbar {
+    opacity: 0.8;
+    background-color: black;
+}
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+}     
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-icons a:hover {
+    background-color: rgb(60, 145, 194);
+}
+
+.nav-item > a:hover {
+    color: rgb(60, 145, 194)!important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

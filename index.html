@@ -11,36 +11,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-        <style>
-        .navbar {
-            opacity: 0.7;
-            background-color: black;
-        }
-        .social-icons a {
-            display: inline-block;
-            height: 3.5rem;
-            width: 3.5rem;
-            background-color: #495057;
-            color: #fff !important;
-            border-radius: 100%;
-            text-align: center;
-            font-size: 1.5rem;
-            line-height: 3.5rem;
-            margin-right: 1rem;
-        }     
-        .social-icons a:last-child {
-            margin-right: 0;
-        }
-
-        .social-icons a:hover {
-            background-color: rgb(60, 145, 194);
-        }
-
-        .nav-item > a:hover {
-            color: rgb(60, 145, 194)!important;
-        }
-
-        </style>
+        <!-- My custom styles-->
+        <link href="css/my.css" rel="stylesheet">
     </head>
     <!-- NAVBAR --> 
     <body>
@@ -48,16 +20,19 @@
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <div class="container">
                     <a class="navbar-brand" href="#home">Pedro Oliveira</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link" href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contributions</a>
+                                <a class="nav-link" href="#contributions">Contributions</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Experience</a>
@@ -106,8 +81,8 @@
         </div>
     </div>
 
-    <!-- HOME --> 
-    <div class="container">
+    <!-- PROJECTS --> 
+    <div id="projects" class="container">
         <div class="row">
             <div class="col-md-7">
                 <h2 class="">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
@@ -132,8 +107,9 @@
 
         <div class="dropdown-divider"></div>
 
-        <div class="row">
-            <div class="col-md-3 p-3 p-md-5 m-md-5">
+        <!-- CONTRIBUTIONS --> 
+        <div id="contributions" class="row">
+            <div class="m-md-3">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="img/me.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -143,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 p-3 p-md-5 m-md-5">
+            <div class="m-md-3">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="img/me.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -153,17 +129,25 @@
                     </div>
                 </div>
             </div>
+            <div class="m-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/me.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div> 
         </div>
-
     </div>
+
     <div class="jumbotron">
         <div class="container text-center">
             <h1>My Portfolio</h1>      
             <p>Some text that represents "Me"...</p>
         </div>
     </div>
-
-
     <div class="container">    
         <div class="jumbotron">
             <div class="container text-center">
@@ -172,18 +156,12 @@
             </div>
         </div>
     </div>
-        <div class="jumbotron">
-            <div class="container text-center">
-                <h1>My Portfolio</h1>      
-                <p>Some text that represents "Me"...</p>
-            </div>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>My Portfolio</h1>      
+            <p>Some text that represents "Me"...</p>
         </div>
-
-    <div class="container-fluid">
-        <h1>My First Bootstrap Page</h1>
-        <p>This is some text.</p>
     </div>
-
         
         <!-- Core JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
