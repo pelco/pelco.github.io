@@ -21,6 +21,10 @@ nav.navbar {
     color: rgb(60, 145, 194)!important;
 }
 
+#topheader .navbar-nav li.active > a {
+	color: #fff;
+}
+
 .social-icons a {
     display: inline-block;
     height: 3.5rem;
@@ -43,4 +47,5 @@ nav.navbar {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 15rem;
 }
