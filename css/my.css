@@ -3,13 +3,24 @@ body {
 }
 
 @media (min-width: 992px) {
-body {
-    padding-top: 56px;
+    body {
+        padding-top: 56px;
+    }
 }
-.navbar {
+
+nav.navbar {
     opacity: 0.8;
     background-color: black;
 }
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+    color: rgb(60, 145, 194)!important;
+  }
+
+.nav-item > a:hover {
+    color: rgb(60, 145, 194)!important;
+}
+
 .social-icons a {
     display: inline-block;
     height: 3.5rem;
@@ -28,10 +39,6 @@ body {
 
 .social-icons a:hover {
     background-color: rgb(60, 145, 194);
-}
-
-.nav-item > a:hover {
-    color: rgb(60, 145, 194)!important;
 }
 
 .card {
