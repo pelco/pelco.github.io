@@ -21,10 +21,6 @@ nav.navbar {
     color: rgb(60, 145, 194)!important;
 }
 
-#topheader .navbar-nav li.active > a {
-	color: #fff;
-}
-
 .social-icons a {
     display: inline-block;
     height: 3.5rem;
