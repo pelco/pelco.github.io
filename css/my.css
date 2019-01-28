@@ -48,6 +48,9 @@ nav.navbar {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my_cont_card {
     width: 15rem;
 }
 
@@ -55,4 +58,3 @@ nav.navbar {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
