@@ -54,6 +54,10 @@ nav.navbar {
     width: 15rem;
 }
 
+.my_skill_card {
+    width: 8rem;
+}
+
 .row {
     padding-top: 10px;
     padding-bottom: 10px;
