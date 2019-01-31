@@ -6,98 +6,490 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="Pedro Oliveira">
 
-        <title>Pedro Oliveira</title>
-
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-        <!-- Custom css template -->
-         <!-- <link href="css/coming-soon.css" rel="stylesheet"> -->
-        <style>
-        .background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background-color: #4ba1f1;
-            opacity: 0.7;
-            z-index: 1;
-        }
-        .masthead {
-            position: relative;
-            overflow: hidden;
-            padding-bottom: 3rem;
-            z-index: 2;
-        }
+        <!-- My custom styles-->
+        <link href="css/my.css" rel="stylesheet">
 
-        .masthead .masthead-bg {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            width: 100%;
-            min-height: 35rem;
-            height: 100%;
-            background-color: rgba(0, 46, 102, 0.8);
-            -webkit-transform: skewY(4deg);
-            transform: skewY(4deg);
-            -webkit-transform-origin: bottom right;
-            transform-origin: bottom right;
-        }
+        <title>Pedro Oliveira</title>
 
-        .masthead .masthead-content h1 {
-            font-size: 2.5rem;
-        }
+    <!-- Since you are here, checkout Super Mario  -->
 
-        @media (min-width: 768px) {
-            .masthead {
-                height: 100%;
-                min-height: 0;
-                width: 40.5rem;
-                padding-bottom: 0;
-            }
-            .masthead .masthead-bg {
-                min-height: 0;
-                -webkit-transform: skewX(-8deg);
-                transform: skewX(-8deg);
-                -webkit-transform-origin: top right;
-                transform-origin: top right;
-            }
-            .masthead .masthead-content {
-                padding-left: 3rem;
-                padding-right: 10rem;
-            }
-            .masthead .masthead-content h1 {
-                font-size: 3.5rem;
-            }
-        }
-        </style>
+    <!--            ▄▄▄▀▀▀▀▀▀▀▄
+                ▄▀▀    ▀▀▀▀▄    █
+            ▄▀▀  ▀▀▀▀▀▀▄   ▀▄   █
+           █▄▄▄▄▄▄       ▀▄  ▀▄  █
+          █         ▀▄      █    █ █
+       ▄█             ▀▄     ▐   ▐ ▌
+       ██               ▀▄   ▐ ▄▀▀▀▄
+       █        ██       ▌  ▐▄▀      █
+       █         █       ▌  ▐▐        ▐
+      ▐          ▌     ▄▀▀▀  ▌       ▐             ▄▄▄▄▄▄
+       ▌          ▀▀▀▀        ▀▀▄▄▄▀      ▄▄████▓▓▓▓▓▓▓███▄
+       ▌                            ▄▀  ▄▄█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄
+       ▐                          ▄▀ ▄█▓▓▓▓▓▓▓▓▓▓     ▓▓    ▓▓█▄
+        ▌                      ▄▀ ▄█▓▓▓▓▓▓▓▓▓▓▓    ▓▓ ▓▓ ▓▓  ▓▓█
+      ▄▀▄                 ▄▀▀▌██▓▓▓▓▓▓▓▓▓▓▓▓▓  ▓▓▓   ▓▓ ▓▓  ▓▓█
+     ▌    ▀▀▀▄▄▄▄▄▄▄▄▀▀   ▌█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  ▓        ▓▓   ▓▓▓█
+      ▀▄                 ▄▀▀▓▓▓▓▓▓▓▓█████████████▄▄     ▓▓  ▓▓▓█
+        █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▄▄   ▓▓▓▓▓█
+        █▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓███▓▓▓▓████▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓▓▓▓▓█
+         █▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓█▓▓██░░███████░██▓▓▓▓▓▓▓▓▓▓██▓▓▓▓▓█
+         █▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓░░░░░█░░░░░██░░░░██▓▓▓▓▓▓▓▓▓██▓▓▓▓▌
+         █▓▓▓▓▓▓▓▓▓▓▓▓▓▓███░░░░░░░░    ░██░░░░░░░██▓▓▓▓▓▓▓██▓▓▌
+         ▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓██░░░░░░░        ░░░░░░░░░██████▓▓▓▓▓█▓▌
+         ▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓██░░░░░░   ▓▓▓▓▓░░░░░░░███░░███▓▓▓▓▓█▓▌
+          █▓▓▓▓▓▓▓▓▓▓▓▓▓██░░░░░   ▓▓█▄▄▓░░░░░░░░   ░░░░█▓▓▓▓▓█▓▌
+          █▓▓▓▓▓▓▓▓▓▓▓▓▓█░░█░░░   ▓▓██░░░░░░░░▓▓▓▓  ░░░░█▓▓▓▓██
+          █▓▓▓▓▓▓▓▓▓▓▓▓▓█░███░░    ▓░░░░░░░░░░░█▄█▓  ░░░░█▓▓█▓█
+          ▐▓▓▓▓▓▓▓▓▓▓▓▓▓█░█████░░░░░░░░░░░░░░░░░█▓  ░░░░███▓█
+           █▓▓▓▓▓▓▓▓▓▓▓▓█░░███████░░░░░░░░░░░░░░░▓ ░░░░░██▓█
+           █▓▓▓▓▓▓▓▓▓▓▓▓█░░░███████░░░░░░░░░░░░░░ ░░░░░██▓█
+           █▓▓▓▓▓▓▓▓▓▓▓▓█░░░███████░░░░░░░░░░░░░░░░░░░██▓█
+            █▓▓▓▓▓▓▓▓▓▓▓▓█░░░░███████░░░░░░░░░░░█████░██░░░
+            █▓▓▓▓▓▓▓▓▓▓▓▓█░░░░░░  ███████░░░░░███████░░█░░░░
+            █▓▓▓▓▓▓▓▓▓▓▓▓▓█░░░░░░█▄▄▄▀▀▀▀████████████░░█░░░░
+            ▐▓▓▓▓▓▓▓▓▓▓▓▓█░░░░░░██████▄  ▀▀░░░███░░░░░█░░░
+            ▐▓▓▓▓▓▓▓▓▓▓▓█▒█░░░░░░▓▓▓▓▓███▄░░░░░░░░░░░░░░░      ▄▄▄
+            █▓▓▓▓▓▓▓▓▓█▒▒▒▒█░░░░░░▓▓▓▓▓█░░░░░░░░░░░░░░░▄▄▄ ▄▀▀    ▀▄
+           █▓▓▓▓▓▓▓▓▓█▒▒▒▒█▓▓░░░░░░░░░░░░░░░░░░░░░    ▄▀    ▀▄         ▀▄
+          █▓▓▓▓▓▓▓▓▓█▒▒▒▒█▓▓▓▓░░░░░░░░░░░░░░░░░      ▐▄        █▄▄▀▀▀▄  █
+         █▓▓▓▓▓▓▓▓█▒▒▒▒▒▒█▓▓▓▓▓▓▓░░░░░░░░░            █ █      ▐         ▀▄▌
+        █▓▓▓▓▓▓▓▓█▒▒▒▒▒▒███▓▓▓▓▓▓▓▓▓▓▓█▒▒▄           █  ▀▄    █    ▄▄▄    ▐
+       █▓▓▓▓▓▓▓█       ▒▒█▒▒██▓▓▓▓▓▓▓▓▓▓█▒▒▒▄         █    ▀▀█▀▄▀▀▀   ▀▀▄▄▐
+      █▓▓▓▓▓██▒         ▒█▒▒▒▒▒███▓▓▓▓▓▓█▒▒▒██        ▐       ▀█             █
+     █▓▓████▒█▒         ▒█▒▒▒▒▒▒▒▒███████▒▒▒▒██       █       ▐      ▄▄▄     █
+   █▒██▒▒▒▒▒▒█▒▒    ▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒    ▒█▓█  ▄█  █      ▀▄▄▀▀    ▀▀▄▄█
+   █▒▒▒▒▒▒▒▒▒▒█▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█       █▓▓█▓▓▌ ▐        ▐            ▐
+   █▒▒▒▒▒▒▒▒▒▒▒███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒       █▓▓▓█▓▌  ▌       ▐     ▄▄    ▐
+  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒     █▓▓▓█▓▓▌  ▌       ▀▄▄▀      ▐
+  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███████▓▓█▓▓▓▌  ▀▄               ▄▀
+  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███▒▒▒▒▒▒▒██▓▓▓▓▓▌   ▀▄         ▄▀▀
+ █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██▒▒▒▒▒▒▒▒▒▒▒▒▒█▓▓▓▓▓▀▄  ▀▄▄█▀▀▀
+ █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██▓▓▓▓██▄▄▄▀
+ █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒████
+ █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▄▄▄▄▄
+  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███▒▒▒▒▒▒██▄▄
+   █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒███▒▒▒▒▒▒▒▒▒▒▒▒▒█▄
+   █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+   █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒█▒▒▒▒▒▒▒▒▒██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+    █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒█▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░▒▒▒▒▒▒▌
+     █▒▒▒▒▒▒▒▒▒▒▒▒▒██▒▒▒▒▒▒▒█▒▒▒▒█▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░▒▒▌
+     █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█████████████▒▒▒▒▒█▒▒▒▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒▒▒▒░▒▌
+      █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█       ▐▒▒▒▒█▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▌
+       █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█        █▒▒█▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▌
+        █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█        █▒█▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▌
+         █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█        █▒▒▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+          █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█        █▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+          █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█        █▒▒▒░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▀
+           █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█       █▒░░░▒▒▒▒▒░░░░░░░░▒▒▒█▀▀▀
+            █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█       █░▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░█▀
+             █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█       █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▀
+              █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█       █▒▒▒▒▒▒▒▒▒▒▒▒█▀
+              █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█       ▀▀▀███████▀▀
+               █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+                █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+                 █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+                  █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+                   █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██▒█
+                    █▒▒▒▒▒▒▒▒▒▒▒▒▒██▒▒▒▒█
+                    █▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒█
+                    █████████▒▒▒▒▒▒▒▒▒▒▒█
+                     █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+                     █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+                      █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▌
+                      █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▌
+                       █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▌
+                        █▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░█
+                         █▒▒▒▒▒▒▒▒▒▒▒░░░█
+                           ██▒▒▒▒▒▒░░░█▀
+                              █░░░░░█▀
+                                ▀▀▀▀ -->
     </head>
-    <!-- --> 
-    <body>
-        <div class="background"></div>
-        
-        <div class="masthead">
-            <div class="masthead-bg"></div>
+    <!-- NAVBAR --> 
+    <body id="p-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div id="topheader">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#p-top">Pedro Oliveira</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contributions">Contributions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"><i class="fa fa-envelope big-icon"></i> Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-12 my-auto">
-                        <div class="masthead-content text-white py-5 py-md-0">
-                            <h1 class="mb-3">Coming Soon!</h1>
+        <!-- HOME --> 
+        <section id="home" class="bg-light" >
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-5 text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 mt-5">
+                            <img class="rounded-circle" src="img/me.jpg" height="220" width="210">
+                            <h2>Pedro Oliveira</h2>
+                            <h3 class="text-muted">Software Engineer</h3>
+                            <div class="social-icons justify-content-center">
+                                <a href="https://www.linkedin.com/in/pelco/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/pelco" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://twitter.com/Pelcotwit" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-twitter big-icon"></i>
+                                </a>
+                                <a href="doc/pedroo_resume.pdf" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-file-invoice"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 mt-5 text-left">
+                            <img src="img/hi.gif">
+                            <p class="lead text-left">
+                                I am a 29 year old software engineer living in Porto, Portugal.
+                                I currently work on firmware for next-generation products at <a href="https://www.synopsys.com/" target="_blank">Synopsys</a>.
+                            </p>
+                            <p class="lead text-left">
+                                I have a master degree in electronics and computer engineering from the <a href="https://www.uminho.pt/EN" target="_blank"> University of Minho</a>.
+                            </p>
+                            
+                            <p class="lead text-left"> 
+                                You can find more about my background in the <a href="#experience">experience</a> section or on my <a href="https://www.linkedin.com/in/pelco/" target="_blank">Linkedin</a> page.
+                            </p>
+                            <p class="lead text-left">
+                                When I'm not working, I love spending time with my daughter, family, drinking beer with friends, writing code and <a href="https://www.goodreads.com/pelco89" target="_blank"> reading</a>.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
+        <!-- PROJECTS --> 
+        <section id="projects">
+            <div class="container myspace">
+                <h1>Projects</h1>
+                <p class="lead text-left">
+                    I love writing code that I spend part of my free time programming.
+                    From trying new frameworks and tools to building small programs and learn new programming languages.
+                </p>
+                <div class="dropdown-divider"></div>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <h3>Typoga. <span class="text-muted"> Touch typing game.</span></h3>
+                        <p class="lead">Typoga is touch typing game where you need to type as fast as you can.
+                            All your scores are saved so that you can track your progress later.
+                        </p>
+                        <a href="https://github.com/pelco/typoga" target="_blank" class="btn btn-primary" style="width:100px">Visit</a>
+                        <p></p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="card-img-top" src="img/projects/typoga.png" alt="Image cannot be displayed" height="150" width="350">
+                    </div>
+                </div>
+
+                <div class="dropdown-divider"></div>
+
+                <div class="row">
+                    <div class="col-md-7 order-md-2">
+                        <h3>Testing Embedded Firmware.</h3>
+                        <p class="lead">Open source project that uses CppUTest framework to test firmware for embedded systems.</p>
+                        <a href="https://github.com/pelco/firmware_testing" target="_blank" class="btn btn-primary" style="width:100px">Visit</a>
+                        <p></p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="card-img-top" src="img/projects/firm_test.png" alt="Image cannot be displayed" height="220" width="300">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTRIBUTIONS --> 
+        <section id="contributions" class="bg-light">
+            <div class="container myspace">
+                <!-- Page Heading -->
+                <h1>Open Source
+                    <small class="text-muted">contributions</small>
+                </h1>
+                <div class="row d-flex justify-content-center">
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_cont_card">
+                            <!-- <img class="card-img-top" src="img/me.jpg" alt="Card image cap"> -->
+                            <div class="card-body">
+                                <h5 class="card-title">TinyCBOR</h5>
+                                <p class="card-text">The TinyCBOR library is a small CBOR encoder and decoder library, optimized for very fast operation with very small footprint.</p>
+                                <a href="https://github.com/intel/tinycbor" target="_blank" class="btn btn-primary" style="width:100px">Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience --> 
+        <section id="experience">
+            <div class="container myspace">
+                <h1>Experience</h1>
+                <p class="lead text-left">
+                    Know more on my <a href="https://www.linkedin.com/in/pelco/" target="_blank">Linkedin</a> page.
+                </p>
+                <div class="dropdown-divider"></div>
+                <!-- Synopsys -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-right text-muted">
+                                    <div class="text-right">
+                                        <h4 class="card-title text-muted my-0">
+                                            <a href="https://www.synopsys.com/" target="_blank">
+                                                <img class="img-responsive" src="img/experience/synopsys.png" alt="Synopsys" width="150px">
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-dark mt-0 mb-1">Embedded Software Engineer</h4>
+                                <div class="text-muted">
+                                    <div class="text-left">
+                                        September 2017 – Present
+                                    </div>
+                                    <div class="text-left">
+                                        Porto, Portugal
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="card-text">
+                                    <p> As a member of the Security IP team, I work on
+                                        <a href="https://www.synopsys.com/designware-ip/security-ip.html" target="_blank"> trusted execution environments</a> and
+                                        <a href="https://www.synopsys.com/designware-ip/security-ip/content-protection-ip.html" target="_blank"> HDCP protection</a>
+                                         for HDMI and DisplayPort interfaces.</p>
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <a href="https://www.synopsys.com/dw/ipdir.php?ds=security-secure-boot-sdk" target="_blank" class="badge badge-pill badge-primary">Secure Boot</a>
+                                        <a href="https://www.synopsys.com/dw/ipdir.php?ds=security-crypto-software-library" target="_blank" class="badge badge-pill badge-primary">Crypto Library</a>
+
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <!-- CEiiA --> 
+                <div class="row d-flex justify-content-center">
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-right text-muted">
+                                    <div class="text-right">
+                                        <h4 class="card-title text-muted my-0">
+                                            <a href="https://www.ceiia.com/" target="_blank">
+                                                <img class="img-responsive" src="img/experience/ceiia.png" alt="CEiiA" width="150px">
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-dark mt-0 mb-1">Technical Lead & Software Engineer</h4>
+                                <div class="text-muted">
+                                    <div class="text-left">
+                                        August 2014 – September 2017
+                                    </div>
+                                    <div class="text-left">
+                                        Porto, Portugal
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="card-text">
+                                    <p>I was part o <a href="https://www.ceiia.com/mobility" target="_blank">Mobility</a> unit, my responsibilities included training, leading, mentoring and recruiting within the team.
+                                        I was involved in all stages of engineering life cycle, form concept design through verification and validation of production system.
+                                    </p>
+                                    <p>I worked with multi-disciplinary teams to develop electronic solutions (HW & SW) that successfully meet the objectives of the project.
+                                    </p>
+                                </div>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <a href="https://www.mobicascais.pt/rede-mobi" target="_blank" class="badge badge-pill badge-primary">Bike Sharing</a>
+                                        <a href="https://www.ecooltra.com/en/" target="_blank" class="badge badge-pill badge-primary">Scooter Sharing</a>
+                                        <a href="https://carros.uol.com.br/noticias/redacao/2016/11/01/brasil-apela-a-portugal-para-destravar-carro-eletrico-industria-aguarda.htm" target="_blank" class="badge badge-pill badge-primary">Car Sharing</a>
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <!-- Coreworks -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col py-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-right text-muted">
+                                    <div class="text-right">
+                                        <h4 class="card-title text-muted my-0">
+                                            <a href="http://www.coreworks-sa.com/" target="_blank">
+                                                <img class="img-responsive" src="img/experience/cw.png" alt="Coreworks" width="150px">
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <h4 class="card-title text-dark mt-0 mb-1">FPGA / ASIC Design Engineer</h4>
+                                <div class="text-muted">
+                                    <div class="text-left">
+                                        February 2014 – August 2014
+                                    </div>
+                                    <div class="text-left">
+                                        Lisbon, Portugal
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="card-text">
+                                    <p>My responsibilities included design and verification of real-time multi-core systems for <a href="http://coreworks-sa.com/index.php?view=audio_codecs" target="_blank">audio codecs</a>.
+                                        I was also responsible for converting the SoC bus and IPs from AMBA AXI to Avalon.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="bg-light">
+            <div class="container myspace">
+                <!-- Page Heading -->
+                <h1>Skills</h1>
+                <div class="row d-flex justify-content-center">
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/color/96/000000/c-programming.png" alt="C">
+                            <div class="card-body">
+                                <h5 class="card-text">C</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png" alt="C++">
+                            <div class="card-body">
+                                <h5 class="card-text">C++</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/color/96/000000/python.png" alt="python" >
+                            <div class="card-body">
+                                <h5 class="card-text">Python</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/office/48/000000/console.png" alt="Shell">
+                            <div class="card-body">
+                                <h5 class="card-text">Shell</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/color/96/000000/linux.png" alt="Linux Kenel">
+                            <div class="card-body">
+                                <h5 class="card-text" style="font-size: 100%;">Linux Kernel</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/color/96/000000/git.png" alt="git">
+                            <div class="card-body">
+                                <h5 class="card-text">Git</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/color/96/000000/html-5.png" alt="HTML5">
+                            <div class="card-body">
+                                <h5 class="card-text">HTML 5</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/ios/100/000000/javascript.png" alt="JavaScript">
+                            <div class="card-body">
+                                <h5 class="card-text" style="font-size: 100%;">JavaScript</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-md-3 my-2 mx-2">
+                        <div class="card my_skill_card">
+                            <img class="card-img-top" src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png" alt="Java">
+                            <div class="card-body">
+                                <h5 class="card-text">Java</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container myspace">
+                <h1>Contact</h1> 
+                <div class="col-md-6 py-2">
+                    <p class="lead text-center" atyle="vertical-align: middle;">
+                        <i class="far fa-envelope"></i>
+                        <span class="text-muted" style="vertical-align: middle;">
+                            <a href="mailto:me@pedroo.net">me@pedroo.net</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer" class="bg-light">
+            <div class="container myspace">
+                <p class="lead text-center">
+                    <small class="text-muted">
+                        © 2019 · Pedro Oliveira
+                    </small>
+                </p>
+            </div>
+        </section>
 
         <!-- Core JavaScript -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="js/my.js"></script>
     </body>
 </html>
